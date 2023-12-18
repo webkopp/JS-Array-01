@@ -11,21 +11,13 @@
 // Verwende die Pop-Methode, um 2 Werte von der Rückseite deines Arrays zu entfernen.
 // Verwende die Shift-Methode, um 2 Werte von der Vorderseite deines Arrays zu entfernen.
                     
-let person = ["nancy", "kopp", "leipzig"]
-console.log(person)
-person.push("travelLover", "foodLover")
-console.log(person)
-
-
-let friends = ["mickey", "michelle", "maurice"]
-console.log(friends)
-friends.push("Drine", "Sebastian")
-console.log(friends)
-
-let favoriteFood = ["iceCream", "chickenSoup", "uschisNoodles"]
-console.log(favoriteFood)
-favoriteFood.push("Suhsi", "Pizza")
-console.log(favoriteFood)
-
-// let kopps = [person, friends, favoriteFood]
-// console.log(kopps)
+const nancyNum = [23, 54, 75]
+console.log(nancyNum)
+nancyNum.push(3, 5, 7, 9, 11)
+nancyNum.unshift(27, 33, 49, 77, 89)
+console.log(nancyNum)
+nancyNum.pop()
+nancyNum.pop()
+nancyNum.shift()
+nancyNum.shift()
+console.log(nancyNum)
