@@ -9,15 +9,31 @@ console.log(person)
 person.push("travelLover", "foodLover")
 console.log(person)
 
+person.shift()
+let firstValue1 = person.shift()
+console.log(person.shift())
+console.log(person)
+
 
 let friends = ["mickey", "michelle", "maurice"]
 console.log(friends)
 friends.push("Drine", "Sebastian")
 console.log(friends)
 
+friends.shift()
+let firstValue2 = person.shift()
+console.log(friends.shift())
+console.log(friends)
+
+
 let favoriteFood = ["iceCream", "chickenSoup", "uschisNoodles"]
 console.log(favoriteFood)
 favoriteFood.push("Suhsi", "Pizza")
+console.log(favoriteFood)
+
+favoriteFood.shift()
+let firstValue3 = person.shift()
+console.log(favoriteFood.shift())
 console.log(favoriteFood)
 
 // let kopps = [person, friends, favoriteFood]
