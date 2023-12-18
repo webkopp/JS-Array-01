@@ -9,7 +9,7 @@
 // Versuche anschließend die Funktion in der ES6 Schreibweise (Arrow-Function) umzuschreiben.
 // Hier findest du nochmal etwas zum Syntax der Arrow-Functions. 
               
-const words = ["Singapor", "Lasvegas", "Palmbeach", "Bangkok", "Capdown", "Berlin", "Oslo", "Cali"];
+const words = ["Singapor", "Lasvegas", "Palmbeach", "Bangkok", "Captown", "Berlin", "Oslo", "Cali"];
 console.log(words);
 
 let nancyWords = () => {
