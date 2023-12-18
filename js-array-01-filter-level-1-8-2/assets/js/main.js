@@ -9,21 +9,14 @@
 // Versuche anschließend die Funktion in der ES6 Schreibweise (Arrow-Function) umzuschreiben.
 // Hier findest du nochmal etwas zum Syntax der Arrow-Functions. 
               
-let person = ["nancy", "kopp", "leipzig"]
-console.log(person)
-person.push("travelLover", "foodLover")
-console.log(person)
+const words = ["Singapor", "Lasvegas", "Palmbeach", "Bangkok", "Capdown", "Berlin", "Oslo", "Cali"];
+console.log(words);
 
+let nancyWords = () => {
+    let result = words.filter(word => word.length <= 6)
+    console.log(result);
+}
+nancyWords()
 
-let friends = ["mickey", "michelle", "maurice"]
-console.log(friends)
-friends.push("Drine", "Sebastian")
-console.log(friends)
-
-let favoriteFood = ["iceCream", "chickenSoup", "uschisNoodles"]
-console.log(favoriteFood)
-favoriteFood.push("Suhsi", "Pizza")
-console.log(favoriteFood)
-
-// let kopps = [person, friends, favoriteFood]
-// console.log(kopps)
+let result = words.filter(word => word.length <= 6)
+console.log(result);

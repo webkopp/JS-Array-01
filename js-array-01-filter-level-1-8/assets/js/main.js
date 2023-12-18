@@ -6,21 +6,11 @@
 // geradeZahlen = [2, 4, 6, 8, 10];
 // ungeradeZahlen = [1, 3, 5, 7, 9];
               
-let person = ["nancy", "kopp", "leipzig"]
-console.log(person)
-person.push("travelLover", "foodLover")
-console.log(person)
+const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+console.log(number);
 
+const geradezahlen = number.filter(num => num % 2 === 0)
+console.log(geradezahlen);
 
-let friends = ["mickey", "michelle", "maurice"]
-console.log(friends)
-friends.push("Drine", "Sebastian")
-console.log(friends)
-
-let favoriteFood = ["iceCream", "chickenSoup", "uschisNoodles"]
-console.log(favoriteFood)
-favoriteFood.push("Suhsi", "Pizza")
-console.log(favoriteFood)
-
-// let kopps = [person, friends, favoriteFood]
-// console.log(kopps)
+const ungeradezahlen = number.filter(num => num % 2 !== 0)
+console.log(ungeradezahlen);
