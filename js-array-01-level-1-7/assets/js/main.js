@@ -14,9 +14,16 @@ console.log(friends)
 friends.push("Drine", "Sebastian")
 console.log(friends)
 
+friends.unshift("Naddel", "Claudia")
+console.log(friends)
+
+
 let favoriteFood = ["iceCream", "chickenSoup", "uschisNoodles"]
 console.log(favoriteFood)
 favoriteFood.push("Suhsi", "Pizza")
+console.log(favoriteFood)
+
+favoriteFood.unshift("fried prawn", "watermelon")
 console.log(favoriteFood)
 
 // let kopps = [person, friends, favoriteFood]
