@@ -8,26 +8,27 @@ let person = ["nancy", "kopp", "leipzig"]
 console.log(person)
 person.push("travelLover", "foodLover")
 console.log(person)
-person.pop()
+
 let lastValue1 = person.pop()
-console.log(person.pop())
-console.log(person)
+console.log(lastValue1)
+
 
 let friends = ["mickey", "michelle", "maurice"]
 console.log(friends)
 friends.push("Drine", "Sebastian")
 console.log(friends)
+
 let lastValue2 = friends.pop()
-console.log(friends.pop())
-console.log(friends)
+console.log(lastValue2)
+
 
 let favoriteFood = ["iceCream", "chickenSoup", "uschisNoodles"]
 console.log(favoriteFood)
 favoriteFood.push("Suhsi", "Pizza")
 console.log(favoriteFood)
+
 let lastValue3 = favoriteFood.pop()
-console.log(favoriteFood.pop())
-console.log(favoriteFood)
+console.log(lastValue3)
 
 // let kopps = [person, friends, favoriteFood]
 // console.log(kopps)
