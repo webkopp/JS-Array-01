@@ -20,8 +20,6 @@ console.log(friends)
 friends.push("Drine", "Sebastian")
 console.log(friends)
 
-const myFriend = friends.shift()
-console.log(myFriend)
 let firstValue2 = friends.shift()
 console.log(firstValue2)
 
@@ -31,8 +29,6 @@ console.log(favoriteFood)
 favoriteFood.push("Suhsi", "Pizza")
 console.log(favoriteFood)
 
-const myFood = favoriteFood.shift()
-console.log(myFood)
 let firstValue3 = favoriteFood.shift()
 console.log(firstValue3)
 
